@@ -4,13 +4,13 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  extends: ["eslint:recommended", "plugin:prettier/recommended"],
   parserOptions: {
     ecmaVersion: 2018,
-    sourceType: 'module',
+    sourceType: "module",
   },
   rules: {
-    'no-console': 'off',
-    'prettier/prettier': ['error', { singleQuote: true, parser: 'flow' }],
+    "no-console": "off",
+    "prettier/prettier": ["error", { singleQuote: false }],
   },
 };
